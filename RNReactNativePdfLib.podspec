@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.platform              = :ios, '9.0'
   s.ios.deployment_target = '8.0'
   s.dependency 'React'
-  s.source_files  = "*.{h,mm}", "lib/**/*"
-  s.header_mappings_dir = "lib/include"
-  s.ios.vendored_libraries = ["lib/universal/libFreeType.a", "lib/universal/libLibJpeg.a", "lib/universal/libLibTiff.a", "lib/universal/libPDFWriter.a", "lib/universal/libZlib.a"]
+  s.source_files  = "*.{h,mm}", "ios/lib/**/*"
+  s.header_mappings_dir = "ios/lib/include"
+  s.ios.vendored_libraries = ["ios/lib/universal/libFreeType.a", "ios/lib/universal/libLibJpeg.a", "ios/lib/universal/libLibTiff.a", "ios/lib/universal/libPDFWriter.a", "ios/lib/universal/libZlib.a"]
 
 end
